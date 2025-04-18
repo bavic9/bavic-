@@ -81,7 +81,7 @@ const Hero = () => {
             <span className=' text-purple'>const</span>
             <span className='text-lightGreen'> resumeLink</span>
             <span className='text-white'> = </span>
-            <a href='https://drive.google.com/file/d/1bAlicxTw99TZ-j1tJ-0dRfHzIKOuRdwX/view?usp=drive_link' className='text-orange hover:underline'>resume</a>
+            <a href='https://drive.google.com/file/d/1MkcC4gCsQo-iwks9mtFXqLQ7yIMyYPQF/view?usp=drive_link' className='text-orange hover:underline'>resume</a>
           </div>
         </div>
         <div className="hidden lg:block w-full h-[500px]">
