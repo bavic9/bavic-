@@ -130,7 +130,7 @@ const technologies = [
 
 const projects = [
   {
-    name: "Real Estate Dashboard",
+    name: "Task Manager",
     description:
       "Web-based prototype that helps you organize and track tasks with ease. Whether you're managing personal to-dos or team projects.",
     tags: [
