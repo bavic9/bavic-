@@ -21,7 +21,7 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <h1 className=" text-3xl font-bold">
+          <h1 className="lg:text-4xl text-3xl font-bold">
             Adebayo
           </h1>
         </Link>
@@ -31,7 +31,7 @@ const Navbar = () => {
               key={link?.id}
               className={
                 active === link?.title ? 'p-4 w-38 text-center text-lg font-semibold hover:text-white text-white'
-                  : ' p-4 w-38 text-center hover:text-white text-lg font-semibold'
+                  : ' p-4 w-38 text-center hover:text-white xl:text-xl text-lg font-semibold'
               }
               onClick={() => setActive(link?.title)}
             >

@@ -48,28 +48,28 @@ const Hero = () => {
         <div className='flex flex-col lg:w-[50%] gap-4 justify-between'>
           <div className=' w-full mt-28'>
             <div className='text-white flex flex-col gap-4'>
-              <p className='xs:text-base text-lg md:text-xl font-light'>
+              <p className='xs:text-base text-lg md:text-xl xl:text-2xl font-light'>
                 {typeEffect}
               </p>
-              <h1 className='text-4xl w-1/2 md:w-full lg:text-4xl md:text-5xl font-semibold'>
+              <h1 className='text-4xl w-1/2 md:w-full lg:text-4xl md:text-5xl xl:text-6xl font-semibold'>
                 {typeNew}
               </h1>
               <span className='flex items-center gap-2 text-lightGreen'>
-                <p className='xs:text-base sm:text-lg md:text-2xl font-light'>
+                <p className='xs:text-base sm:text-lg md:text-2xl xl:text-3xl font-light'>
                   {title}
                 </p>
               </span>
-              <p className='xs:text-xs sm:h-[150px] py-4 text-sm md:text-base font-light text-text'>
+              <p className='xs:text-xs sm:h-[150px] py-4 text-sm md:text-base xl:text-lg font-light text-text'>
                 {texts}
               </p>
             </div>
           </div>
           <div className='mt-4'>
             <div className='flex flex-col gap-2'>
-              <p className='text-text text-base md:text-lg'>
+              <p className='text-text text-base md:text-lg xl:text-xl'>
               // find my profile on Github:
               </p>
-              <div className='text-base md:text-lg'>
+              <div className='text-base md:text-lg xl:text-xl'>
                 <span className=' text-purple'>const</span>
                 <span className='text-lightGreen'> githubLink</span>
                 <span className='text-white'> = </span>
@@ -77,7 +77,7 @@ const Hero = () => {
               </div>
             </div>
           </div>
-          <div className='text-base md:text-lg'>
+          <div className='text-base md:text-lg xl:text-xl'>
             <span className=' text-purple'>const</span>
             <span className='text-lightGreen'> resumeLink</span>
             <span className='text-white'> = </span>
