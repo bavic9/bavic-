@@ -34,7 +34,7 @@ const Hero = () => {
   })
 
   const [texts] = useTypewriter({
-    words: ['I am a versatile frontend developer with over three years of experience, specializing in building structured, high-quality, and interactive web applications. Passionate about clean design and seamless user experiences, I thrive on creating engaging and efficient digital solutions.'],
+    words: ['Frontend Developer with 3+ years of experience building responsive and scalable web applications using React, Next.js, and TypeScript. Strong focus on UI performance, clean component architecture, and seamless API integration. Experienced collaborating with designers and backend engineers to deliver production-ready products.'],
     loop: true,
     pauseFor: 10,
     typeSpeed: 1,
@@ -73,7 +73,7 @@ const Hero = () => {
                 <span className=' text-purple'>const</span>
                 <span className='text-lightGreen'> githubLink</span>
                 <span className='text-white'> = </span>
-                <a href='https://github.com/bavic9' className='text-orange hover:underline'>https://github.com/bavic9</a>
+                <a href='https://github.com/bavic9'  target="_blank" rel="noopener noreferrer" className='text-orange hover:underline'>bavic9</a>
               </div>
             </div>
           </div>
@@ -81,7 +81,7 @@ const Hero = () => {
             <span className=' text-purple'>const</span>
             <span className='text-lightGreen'> resumeLink</span>
             <span className='text-white'> = </span>
-            <a href='https://drive.google.com/file/d/1MkcC4gCsQo-iwks9mtFXqLQ7yIMyYPQF/view?usp=drive_link' className='text-orange hover:underline'>resume</a>
+            <a href='https://drive.google.com/file/d/1goi2SeuQe_jYi4Sml2nHuA1XPKgw9DIr/view?usp=drive_link'  target="_blank" rel="noopener noreferrer" className='text-orange hover:underline'>resume</a>
           </div>
         </div>
         <div className="hidden lg:block w-full h-[500px]">
