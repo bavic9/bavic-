@@ -33,6 +33,8 @@ import zarrin from '../assets/zarrin.JPG'
 import blog from '../assets/blog.png'
 import simple from '../assets/simple.jpg'
 import stake from '../assets/stake.png'
+import pxc from '../assets/pxc.png'
+import homzy from '../assets/estate.png'
 
 
 export const navLinks = [
@@ -152,6 +154,28 @@ const projects = [
     live_link: "https://tasks-theta-nine.vercel.app/",
   },
   {
+    name: "Prime X Capital",
+    description:
+      "Evaluate your trading journey & network with like minds and expert traders",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Firebase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: pxc,
+    source_code_link: "https://github.com/bavic9/primexcapital",
+    live_link: "https://primexcapital.vercel.app/",
+  },
+  {
     name: "Zarrin",
     description:
       "A blog website for sharing insights and stories for easy reading and seamless navigation across various topics.",
@@ -173,27 +197,49 @@ const projects = [
     source_code_link: "https://github.com/bavic9/zarrin-app",
     live_link: "https://zarrin-app.vercel.app",
   },
+  // {
+  //   name: "Blogger",
+  //   description:
+  //     "A blog app that lets users create, edit, and share posts with ease. It features a clean interface, supports rich text formatting.",
+  //   tags: [
+  //     {
+  //       name: "Next js",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "MongoDb",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "tailwind",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: blog,
+  //   source_code_link: "https://github.com/bavic9/blogger",
+  //   live_link: "https://blogger-omega-lovat.vercel.app/",
+  // },
   {
-    name: "Blogger",
+    name: "Homzy",
     description:
-      "A blog app that lets users create, edit, and share posts with ease. It features a clean interface, supports rich text formatting.",
+      "Find variety of property that suit you very easily Forget all difficulties in finding a residence for you",
     tags: [
       {
-        name: "Next js",
+        name: "react",
         color: "blue-text-gradient",
       },
-      {
-        name: "MongoDb",
-        color: "green-text-gradient",
-      },
+      // {
+      //   name: "Firebase",
+      //   color: "green-text-gradient",
+      // },
       {
         name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: blog,
-    source_code_link: "https://github.com/bavic9/blogger",
-    live_link: "https://blogger-omega-lovat.vercel.app/",
+    image: homzy,
+    source_code_link: "https://github.com/bavic9/homy",
+    live_link: "https://real-estate-app-d1f.pages.dev/",
   },
   {
     name: "Simply Recipe",

@@ -95,12 +95,12 @@ const Works = () => {
         </div>
       </div>
       <div>
-        <div className="mt-20 hidden lg:flex w-full flex-row justify-center flex-wrap">
+        <div className="mt-20 hidden md:flex w-full flex-row justify-center flex-wrap">
           {projects.map((project, index) => (
             <ProjectCard key={`project-${index}`} index={index} {...project} />
           ))}
         </div>
-        <div className="mt-20 flex flex-col lg:hidden items-center justify-between flex-wrap">
+        <div className="mt-20 flex flex-col md:hidden items-center justify-between flex-wrap">
           {projects.slice(0, 4).map((project, index) => (
             <ProjectCard key={`project-${index}`} index={index} {...project} />
           ))}

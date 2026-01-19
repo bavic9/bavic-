@@ -70,7 +70,7 @@ const Contact = () => {
 
   return (
     <div
-      className={`lg:my-12 flex lg:flex-row flex-col-reverse justify-around m-auto gap-10 overflow-hidden`}
+      className={`md:my-12 flex lg:flex-row flex-col-reverse justify-around items-center m-auto gap-10 overflow-hidden`}
     >
       <motion.div
         variants={slideIn("left", "tween", 0.2, 1)}
@@ -82,7 +82,7 @@ const Contact = () => {
         <form
           ref={formRef}
           onSubmit={handleSubmit}
-          className="mt-4 flex flex-col gap-8"
+          className="mt-4 flex flex-col w-full lg:ml-12 gap-8"
         >
           <label className="flex flex-col">
             <span className="text-text font-medium mb-1">_name:</span>

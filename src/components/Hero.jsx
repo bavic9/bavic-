@@ -37,15 +37,15 @@ const Hero = () => {
     words: ['Frontend Developer with 3+ years of experience building responsive and scalable web applications using React, Next.js, and TypeScript. Strong focus on UI performance, clean component architecture, and seamless API integration. Experienced collaborating with designers and backend engineers to deliver production-ready products.'],
     loop: true,
     pauseFor: 10,
-    typeSpeed: 1,
+    typeSpeed: 10,
     delaySpeed: 10000000000,
     deleteSpeed: 40,
   })
 
   return (
     <section className=''>
-      <div className='p-8 flex flex-col lg:flex-row justify-between items-center lg:h-screen gap-10 md:w-[80%] min-h-[100vh] m-auto'>
-        <div className='flex flex-col lg:w-[50%] gap-4 justify-between'>
+      <div className='p-8 flex flex-col lg:flex-row justify-between items-center lg:h-screen gap-10 md:w-[80%] lg:min-h-[100vh] m-auto'>
+        <div className='flex flex-col md:w-full lg:w-full items-start gap-4 justify-between'>
           <div className=' w-full mt-28'>
             <div className='text-white flex flex-col gap-4'>
               <p className='xs:text-base text-lg md:text-xl xl:text-2xl font-light'>
@@ -64,7 +64,7 @@ const Hero = () => {
               </p>
             </div>
           </div>
-          <div className='mt-4'>
+          <div className='mt-8'>
             <div className='flex flex-col gap-2'>
               <p className='text-text text-base md:text-lg xl:text-xl'>
               // find my profile on Github:
@@ -84,7 +84,7 @@ const Hero = () => {
             <a href='https://drive.google.com/file/d/1goi2SeuQe_jYi4Sml2nHuA1XPKgw9DIr/view?usp=drive_link'  target="_blank" rel="noopener noreferrer" className='text-orange hover:underline'>resume</a>
           </div>
         </div>
-        <div className="hidden lg:block w-full h-[500px]">
+        <div className="hidden md:block w-full h-[400px]">
           <ComputersCanvas />
         </div>
       </div>
