@@ -84,7 +84,7 @@ const Hero = () => {
             <a href='https://drive.google.com/file/d/1goi2SeuQe_jYi4Sml2nHuA1XPKgw9DIr/view?usp=drive_link'  target="_blank" rel="noopener noreferrer" className='text-orange hover:underline'>resume</a>
           </div>
         </div>
-        <div className="hidden md:block w-full h-[400px]">
+        <div className="hidden md:block w-full h-[500px]">
           <ComputersCanvas />
         </div>
       </div>
