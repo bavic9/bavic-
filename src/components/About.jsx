@@ -6,7 +6,7 @@ import { styles } from "../styles";
 import { services } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
-import Tech from "./Tech";
+// import Tech from "./Tech";
 
 const ServiceCard = ({ index, title, icon }) => (
   <Tilt className="xs:w-[250px] w-full">
@@ -39,7 +39,7 @@ const ServiceCard = ({ index, title, icon }) => (
 const About = () => {
   return (
     <>
-      <div className=" lg:w-[60vw] mx-auto my-20 lg:my-20">
+      <div className=" lg:w-[80vw] mx-auto my-20 lg:my-20">
         <motion.div variants={textVariant()}>
           <p className={styles.sectionSubText}>Introduction</p>
           <h2 className={styles.sectionHeadText}>Overview.</h2>
@@ -67,9 +67,9 @@ const About = () => {
           ))}
         </div>
       </div>
-      <div className="lg:w-[80%] m-auto">
+      {/* <div className="lg:w-[80%] m-auto">
         <Tech />
-      </div>
+      </div> */}
     </>
   );
 };

@@ -6,6 +6,7 @@ import { styles } from "../styles";
 import { github } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
+import Tech from "./Tech";
 import { fadeIn, textVariant } from "../utils/motion";
 
 const ProjectCard = ({
@@ -105,7 +106,11 @@ const Works = () => {
             <ProjectCard key={`project-${index}`} index={index} {...project} />
           ))}
         </div>
+        <div className="">
+        <Tech />
       </div>
+      </div>
+       
     </>
   );
 };

@@ -12,7 +12,7 @@ import { fadeIn, textVariant } from "../utils/motion";
 const Tech = () => {
   return (
     <>
-      <div className="lg:w-[60vw] m-auto">
+      <div className="lg:w-[80vw] m-auto">
         <motion.div variants={textVariant()}>
           <h2 className={styles.sectionHeadText}>Technologies.</h2>
         </motion.div>
