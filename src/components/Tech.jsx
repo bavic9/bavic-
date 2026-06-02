@@ -12,7 +12,7 @@ import { fadeIn, textVariant } from "../utils/motion";
 const Tech = () => {
   return (
     <>
-      <div className="lg:w-[80vw] m-auto">
+      <div className="lg:w-[80vw] my-20 lg:my-20 m-auto">
         <motion.div variants={textVariant()}>
           <h2 className={styles.sectionHeadText}>Technologies.</h2>
         </motion.div>
@@ -28,7 +28,7 @@ const Tech = () => {
           life.
         </motion.p>
       </div>
-      <div className="flex flex-row flex-wrap justify-center gap-10 mt-12">
+      <div className="flex flex-row flex-wrap justify-center gap-10 mt-12 lg:w-[80vw] m-auto">
         {technologies.map((technology) => (
           <div className="w-28 h-28" key={technology.name}>
             <BallCanvas icon={technology.icon} />

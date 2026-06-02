@@ -21,7 +21,7 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <h1 className="lg:text-4xl text-3xl font-bold">
+          <h1 className="lg:text-4xl text-xl font-bold">
             Adebayo
           </h1>
         </Link>

@@ -106,11 +106,10 @@ const Works = () => {
             <ProjectCard key={`project-${index}`} index={index} {...project} />
           ))}
         </div>
-        <div className="">
+      </div>
+       {/* <div className="">
         <Tech />
-      </div>
-      </div>
-       
+      </div> */}
     </>
   );
 };
